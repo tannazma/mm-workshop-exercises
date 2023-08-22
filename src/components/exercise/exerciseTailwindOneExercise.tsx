@@ -9,7 +9,7 @@ const ExerciseTailwindOneExercise = () => {
     <nav>
       <ul className="">
         {steps.map((step, stepIdx) => (
-          <Step step={step} stepIdx={stepIdx} />
+          <Step key={step.id} step={step} stepIdx={stepIdx} />
         ))}
       </ul>
     </nav>
