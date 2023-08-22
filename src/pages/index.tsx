@@ -34,7 +34,7 @@ export default function Home({ files }: HomeProps) {
       <div className="px-8 py-20">
         <ul className="grid grid-cols-6 gap-8">
           {files.map((file) => (
-            <motion.li className="col-span-3">
+            <motion.li key={file.href} className="col-span-3">
               <motion.a
                 href={file.href}
                 className="rounded-2xl"
