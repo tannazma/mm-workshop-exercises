@@ -24,6 +24,9 @@ const exerciseMetaData: ExerciseMetaData = {
   },
   6: {
     title: "Create a dashboard page with Shadcn & Tailwind CSS"
+  },
+  7: {
+    title: "Animate your steps navigation with Framer Motion"
   }
 };
 
